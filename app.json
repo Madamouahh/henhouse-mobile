@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Hen House Diamond",
+    "slug": "hen-house-fight-club-diamond",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.henhouseproject.henhousefightclubdiamond",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permet d'ajouter une preuve (photo/screenshot) pour validation staff."
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b1a1e194-841a-4d4a-93f7-ec9d45e54b73"
+      }
+    },
+    "owner": "hen-house-project"
+  }
+}
